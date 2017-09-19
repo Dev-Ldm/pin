@@ -1,0 +1,17 @@
+[1mdiff --git a/app/src/main/java/com/example/student/myapplication/MainActivity.java b/app/src/main/java/com/example/student/myapplication/MainActivity.java[m
+[1mindex 4f4c049..c9273a0 100644[m
+[1m--- a/app/src/main/java/com/example/student/myapplication/MainActivity.java[m
+[1m+++ b/app/src/main/java/com/example/student/myapplication/MainActivity.java[m
+[36m@@ -16,12 +16,6 @@[m [mpublic class MainActivity extends AppCompatActivity {[m
+         setContentView(R.layout.activity_main);[m
+         final TextView textView=(TextView)findViewById(R.id.accou);[m
+         Button button=(Button)findViewById(R.id.login);[m
+[31m-        button.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View view) {[m
+[31m-                textView.setText("djsk");[m
+ [m
+[31m-            }[m
+[31m-        });[m
+     }[m
+ }[m
